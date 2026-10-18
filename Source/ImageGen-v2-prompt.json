@@ -1,0 +1,6 @@
+{
+  "mode": "built-in imagegen",
+  "reference": "Face_reference.png",
+  "result": "Face_speaking_source.png",
+  "prompt": "Use case: identity-preserve. Asset type: precise face texture edit for an existing Live2D avatar. Image 1 is the edit target, not a new design. Edit ONLY the mouth region to a naturally OPEN speaking vowel 'ah' pose: a moderate vertical dark mouth opening with subtle upper teeth and a small shaded tongue, approximately 1.8 times the current lip height, keeping the original lip width and mature restrained expression. This is normal speech, not surprise or a smile. Keep the exact same face proportions, framing, silver hair strands, eyebrows, open cold blue eyes, nose, chin, pale skin tone, lighting and collar. No blush, no cute expression. Keep every feature aligned to the reference so this can be registered as a same-position texture patch. Preserve transparent background, same crop and aspect ratio. No text, no new accessories."
+}

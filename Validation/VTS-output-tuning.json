@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "outputs": [
+    {
+      "output": "ParamAngleX",
+      "max": 30,
+      "smoothing": 8
+    },
+    {
+      "output": "ParamAngleY",
+      "max": 30,
+      "smoothing": 8
+    },
+    {
+      "output": "ParamAngleZ",
+      "max": 30,
+      "smoothing": 10
+    },
+    {
+      "output": "ParamEyeLOpen",
+      "max": 1,
+      "smoothing": 6
+    },
+    {
+      "output": "ParamEyeROpen",
+      "max": 1,
+      "smoothing": 6
+    },
+    {
+      "output": "ParamMouthOpenY",
+      "max": 1,
+      "smoothing": 3
+    },
+    {
+      "output": "ParamBodyAngleZ",
+      "max": 10,
+      "smoothing": 24
+    }
+  ],
+  "note": "No camera data, model ID or hotkeys included."
+}

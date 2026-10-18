@@ -1,0 +1,843 @@
+{
+  "references": [
+    {
+      "file": "Perseus_RSI.moc3",
+      "bytes": 5114048,
+      "sha256": "700642b89e60ba39cf18292007bb7ee9dd5831cc87d139874240081f85cd6447"
+    },
+    {
+      "file": "textures/texture_00.png",
+      "bytes": 2697326,
+      "sha256": "99cd17158fd78f129c6563b4c02a8547245188b3ad8a47d5019394aa5acc13f6"
+    },
+    {
+      "file": "Perseus_RSI.cdi3.json",
+      "bytes": 2171,
+      "sha256": "784275354c501de2ebd6307fad1743c9fb4d7dcbded25e4c2678561ad1386de8"
+    },
+    {
+      "file": "Perseus_RSI.physics3.json",
+      "bytes": 14606,
+      "sha256": "0e26a13f623ae577319294df7e892a38cdb8bf5437f24585b2cbae3a4f3e4f83"
+    },
+    {
+      "file": "motions/Idle.motion3.json",
+      "bytes": 7535,
+      "sha256": "6d176c3418cfb78f25fb39ae094ac678494cc446e3d103c7ee93a7e07e9d860c"
+    },
+    {
+      "file": "expressions/ColdNoble.exp3.json",
+      "bytes": 368,
+      "sha256": "666245c440d450cc40a2e1b121ff795d4a12490f9534a3caf9e0dddb86c35e27"
+    },
+    {
+      "file": "expressions/Confident.exp3.json",
+      "bytes": 364,
+      "sha256": "9eda28d7564645941fa8d448327cf4325cf52bdc407fcccd6f0da22f4fb8c787"
+    }
+  ],
+  "textures": [
+    {
+      "file": "textures/texture_00.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "warnings": [],
+  "model3": "Perseus_RSI/Perseus_RSI.model3.json",
+  "model3_sha256": "5f02a9277e40543f1d61ded8715f3f98f4eeb80ee8f7d256ef686e7c34dd60b8",
+  "core": "VTube Studio/Live2DCubismCore.dll",
+  "core_sha256": "c265e8c1442afb2a73613844c3c3667ac5f8e0795ccf85e81276ad30452ec502",
+  "native_api_reference": "https://cubism.live2d.com/sdk-doc/reference/NativeCoreAPIReference_en_r12.pdf",
+  "runtime": {
+    "core_version_hex": "0x05000000",
+    "core_version": "5.0.0",
+    "moc_version": 4,
+    "latest_moc_version": 5,
+    "moc_consistency": 1,
+    "moc_alignment_remainder": 0,
+    "model_alignment_remainder": 0,
+    "model_memory_bytes": 65568,
+    "parameter_count": 21,
+    "part_count": 3,
+    "drawable_count": 4,
+    "canvas": {
+      "size_pixels": [
+        1024,
+        1536
+      ],
+      "origin_pixels": [
+        512,
+        768
+      ],
+      "pixels_per_unit": 768
+    },
+    "geometry": {
+      "vertex_count": 7040,
+      "triangle_count": 13680,
+      "drawable_count_with_triangles": 4,
+      "masked_drawable_count": 0
+    }
+  },
+  "parameters": [
+    {
+      "id": "ParamAngleX",
+      "minimum": -30,
+      "default": 0,
+      "maximum": 30
+    },
+    {
+      "id": "ParamAngleY",
+      "minimum": -30,
+      "default": 0,
+      "maximum": 30
+    },
+    {
+      "id": "ParamAngleZ",
+      "minimum": -30,
+      "default": 0,
+      "maximum": 30
+    },
+    {
+      "id": "ParamEyeLOpen",
+      "minimum": 0,
+      "default": 1,
+      "maximum": 1
+    },
+    {
+      "id": "ParamEyeROpen",
+      "minimum": 0,
+      "default": 1,
+      "maximum": 1
+    },
+    {
+      "id": "ParamMouthOpenY",
+      "minimum": 0,
+      "default": 0,
+      "maximum": 1
+    },
+    {
+      "id": "ParamBodyAngleX",
+      "minimum": -10,
+      "default": 0,
+      "maximum": 10
+    },
+    {
+      "id": "ParamBodyAngleZ",
+      "minimum": -10,
+      "default": 0,
+      "maximum": 10
+    },
+    {
+      "id": "ParamBreath",
+      "minimum": 0,
+      "default": 0,
+      "maximum": 1
+    },
+    {
+      "id": "ParamHairFront",
+      "minimum": -1,
+      "default": 0,
+      "maximum": 1
+    },
+    {
+      "id": "ParamHairSide",
+      "minimum": -1,
+      "default": 0,
+      "maximum": 1
+    },
+    {
+      "id": "ParamHairBack",
+      "minimum": -1,
+      "default": 0,
+      "maximum": 1
+    },
+    {
+      "id": "ParamCoatSway",
+      "minimum": -1,
+      "default": 0,
+      "maximum": 1
+    },
+    {
+      "id": "ParamEyeBallX",
+      "minimum": -1,
+      "default": 0,
+      "maximum": 1
+    },
+    {
+      "id": "ParamEyeBallY",
+      "minimum": -1,
+      "default": 0,
+      "maximum": 1
+    },
+    {
+      "id": "ParamMouthForm",
+      "minimum": -1,
+      "default": 0,
+      "maximum": 1
+    },
+    {
+      "id": "ParamBrowLY",
+      "minimum": -1,
+      "default": 0,
+      "maximum": 1
+    },
+    {
+      "id": "ParamBrowRY",
+      "minimum": -1,
+      "default": 0,
+      "maximum": 1
+    },
+    {
+      "id": "ParamHairSideR",
+      "minimum": -1,
+      "default": 0,
+      "maximum": 1
+    },
+    {
+      "id": "ParamHairBackR",
+      "minimum": -1,
+      "default": 0,
+      "maximum": 1
+    },
+    {
+      "id": "ParamCoatSwayR",
+      "minimum": -1,
+      "default": 0,
+      "maximum": 1
+    }
+  ],
+  "parameter_samples": [
+    {
+      "parameter": "ParamAngleX",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -30,
+          "changed": true,
+          "max_vertex_delta": 0.021679626777768135,
+          "geometry_drawables": [
+            "PerseusMain",
+            "EyeClosedL",
+            "EyeClosedR",
+            "MouthSpeak"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 30,
+          "changed": true,
+          "max_vertex_delta": 0.021662309765815735,
+          "geometry_drawables": [
+            "PerseusMain",
+            "EyeClosedL",
+            "EyeClosedR",
+            "MouthSpeak"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamAngleY",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -30,
+          "changed": true,
+          "max_vertex_delta": 0.0120316743850708,
+          "geometry_drawables": [
+            "PerseusMain",
+            "EyeClosedL",
+            "EyeClosedR",
+            "MouthSpeak"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 30,
+          "changed": true,
+          "max_vertex_delta": 0.0120316743850708,
+          "geometry_drawables": [
+            "PerseusMain",
+            "EyeClosedL",
+            "EyeClosedR",
+            "MouthSpeak"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamAngleZ",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -30,
+          "changed": true,
+          "max_vertex_delta": 0.10773628950119019,
+          "geometry_drawables": [
+            "PerseusMain",
+            "EyeClosedL",
+            "EyeClosedR",
+            "MouthSpeak"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 30,
+          "changed": true,
+          "max_vertex_delta": 0.10773628950119019,
+          "geometry_drawables": [
+            "PerseusMain",
+            "EyeClosedL",
+            "EyeClosedR",
+            "MouthSpeak"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamEyeLOpen",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": 0,
+          "changed": true,
+          "max_vertex_delta": 0.0070874691009521484,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [
+            "EyeClosedL"
+          ],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": false,
+          "max_vertex_delta": 0,
+          "geometry_drawables": [],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamEyeROpen",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": 0,
+          "changed": true,
+          "max_vertex_delta": 0.0070874691009521484,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [
+            "EyeClosedR"
+          ],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": false,
+          "max_vertex_delta": 0,
+          "geometry_drawables": [],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamMouthOpenY",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": 0,
+          "changed": false,
+          "max_vertex_delta": 0,
+          "geometry_drawables": [],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": true,
+          "max_vertex_delta": 0.018151044845581055,
+          "geometry_drawables": [
+            "PerseusMain",
+            "MouthSpeak"
+          ],
+          "opacity_drawables": [
+            "MouthSpeak"
+          ],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamBodyAngleX",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -10,
+          "changed": true,
+          "max_vertex_delta": 0.011718753725290298,
+          "geometry_drawables": [
+            "PerseusMain",
+            "EyeClosedL",
+            "EyeClosedR",
+            "MouthSpeak"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 10,
+          "changed": true,
+          "max_vertex_delta": 0.011718779802322388,
+          "geometry_drawables": [
+            "PerseusMain",
+            "EyeClosedL",
+            "EyeClosedR",
+            "MouthSpeak"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamBodyAngleZ",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -10,
+          "changed": true,
+          "max_vertex_delta": 0.04785442352294922,
+          "geometry_drawables": [
+            "PerseusMain",
+            "EyeClosedL",
+            "EyeClosedR",
+            "MouthSpeak"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 10,
+          "changed": true,
+          "max_vertex_delta": 0.04785442352294922,
+          "geometry_drawables": [
+            "PerseusMain",
+            "EyeClosedL",
+            "EyeClosedR",
+            "MouthSpeak"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamEyeBallX",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -1,
+          "changed": true,
+          "max_vertex_delta": 0.0015470050275325775,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": true,
+          "max_vertex_delta": 0.0015470050275325775,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamEyeBallY",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -1,
+          "changed": true,
+          "max_vertex_delta": 0.0009023547172546387,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": true,
+          "max_vertex_delta": 0.0009023547172546387,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamMouthForm",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -1,
+          "changed": true,
+          "max_vertex_delta": 0.0012639164924621582,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": true,
+          "max_vertex_delta": 0.0012639164924621582,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamBreath",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": 0,
+          "changed": false,
+          "max_vertex_delta": 0,
+          "geometry_drawables": [],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": true,
+          "max_vertex_delta": 0.0041656494140625,
+          "geometry_drawables": [
+            "PerseusMain",
+            "EyeClosedL",
+            "EyeClosedR",
+            "MouthSpeak"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamHairFront",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -1,
+          "changed": true,
+          "max_vertex_delta": 0.004557311534881592,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": true,
+          "max_vertex_delta": 0.004557311534881592,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamHairSide",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -1,
+          "changed": true,
+          "max_vertex_delta": 0.016189992427825928,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": true,
+          "max_vertex_delta": 0.016189992427825928,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamHairBack",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -1,
+          "changed": true,
+          "max_vertex_delta": 0.0234375,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": true,
+          "max_vertex_delta": 0.0234375,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamCoatSway",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -1,
+          "changed": true,
+          "max_vertex_delta": 0.009765625,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": true,
+          "max_vertex_delta": 0.009765625,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamBrowLY",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -1,
+          "changed": true,
+          "max_vertex_delta": 0.0020218491554260254,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": true,
+          "max_vertex_delta": 0.0020218491554260254,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamBrowRY",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -1,
+          "changed": true,
+          "max_vertex_delta": 0.0020218491554260254,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": true,
+          "max_vertex_delta": 0.0020218491554260254,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamHairSideR",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -1,
+          "changed": true,
+          "max_vertex_delta": 0.016189992427825928,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": true,
+          "max_vertex_delta": 0.016189992427825928,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamHairBackR",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -1,
+          "changed": true,
+          "max_vertex_delta": 0.0234375,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": true,
+          "max_vertex_delta": 0.023437529802322388,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    },
+    {
+      "parameter": "ParamCoatSwayR",
+      "changed": true,
+      "endpoints": [
+        {
+          "endpoint": "minimum",
+          "value": -1,
+          "changed": true,
+          "max_vertex_delta": 0.009765625,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        },
+        {
+          "endpoint": "maximum",
+          "value": 1,
+          "changed": true,
+          "max_vertex_delta": 0.009765625,
+          "geometry_drawables": [
+            "PerseusMain"
+          ],
+          "opacity_drawables": [],
+          "render_order_drawables": []
+        }
+      ]
+    }
+  ],
+  "core_logs": [],
+  "failures": [],
+  "status": "pass",
+  "scope": "Core load/update, finite mesh data, package references, texture decoding, isolated endpoint changes and composite poses. Not an application import or visual-quality approval; Cubism Framework physics is not executed by Core."
+}

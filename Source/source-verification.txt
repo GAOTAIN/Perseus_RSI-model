@@ -1,0 +1,43 @@
+CMO3 reopened through Cmo3.read and Cmo3Import.fromModelSource
+Parameters: 21
+Parts: 3
+Art meshes: 4
+Atlas pages: 1
+Source-art tiles: 4
+Image resources: 5
+Layer: 说话口型; vertices=35; grid forms=4; additive morph bindings=6
+Layer: 左眼闭合; vertices=35; grid forms=5; additive morph bindings=6
+Layer: 右眼闭合; vertices=35; grid forms=5; additive morph bindings=6
+Layer: 人设主体与形变网格; vertices=6935; grid forms=36; additive morph bindings=18
+Decoded container files:
+  image.png 96 bytes PNG 64x64
+  image_0.png 83 bytes PNG 32x32
+  image_1.png 75 bytes PNG 16x16
+  imageFileBuf.png 2697326 bytes PNG 2048x2048
+  imageFileBuf_0.png 2499657 bytes PNG 1014x1527
+  image_2.png 784 bytes PNG 16x16
+  image_3.png 7321 bytes PNG 64x64
+  image_4.png 784 bytes PNG 16x16
+  image_5.png 2292 bytes PNG 32x32
+  image_6.png 784 bytes PNG 16x16
+  imageFileBuf_1.png 4867 bytes PNG 61x29
+  image_7.png 569 bytes PNG 16x16
+  image_8.png 5428 bytes PNG 64x64
+  image_9.png 569 bytes PNG 16x16
+  image_10.png 1627 bytes PNG 32x32
+  image_11.png 569 bytes PNG 16x16
+  imageFileBuf_2.png 4669 bytes PNG 61x29
+  image_12.png 558 bytes PNG 16x16
+  image_13.png 5296 bytes PNG 64x64
+  image_14.png 558 bytes PNG 16x16
+  image_15.png 1579 bytes PNG 32x32
+  image_16.png 558 bytes PNG 16x16
+  imageFileBuf_3.png 3774 bytes PNG 49x32
+  image_17.png 580 bytes PNG 16x16
+  image_18.png 6265 bytes PNG 64x64
+  image_19.png 580 bytes PNG 16x16
+  image_20.png 1886 bytes PNG 32x32
+  image_21.png 580 bytes PNG 16x16
+  main.xml 7452696 bytes
+PASS: source reopened, rig counts retained, embedded PNG art decoded.
+Scope: codec/loader verification; not an official Cubism Editor UI import.

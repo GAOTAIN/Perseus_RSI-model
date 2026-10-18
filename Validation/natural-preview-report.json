@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "frames": 160,
+  "fps": 20,
+  "seconds": 8,
+  "minimum_sampled_triangle_area_ratio": 0.5883928537368774,
+  "fast_vs_reference_raster_premultiplied_max_error": 0.003890812397003174,
+  "scope": "Actual native Core geometry with authored tracking-style inputs and official SDK simulated physics, not webcam tracking.",
+  "native_mesh_folding_check": "positive triangle areas on every tenth preview frame"
+}
