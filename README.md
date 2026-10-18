@@ -1,4 +1,4 @@
-# gptvtube — Perseus RSI
+# Perseus_RSI-model
 
 基于 RSI 英仙座主题立绘制作的 VTube Studio 基础 Live2D 模型，目前为 v2 动作优化版。
 
