@@ -1,6 +1,6 @@
 {
   "name": "perseus-rsi-art-build",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": true,
   "description": "Rebuild atlas and basic Cubism rig manifest from the included source assets",
   "dependencies": {
@@ -8,6 +8,7 @@
   },
   "scripts": {
     "art": "node build_art.js",
-    "sidecars": "node build_sidecars.js"
+    "sidecars": "node build_sidecars.js",
+    "pose": "node assemble_natural_pose.js"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "upperBodyFaceHandsRSIPanels": "original pixels preserved",
+  "artworkRegistration": "identity without stretching",
+  "bootSilhouettesAtY1470": [
+    [
+      449,
+      535
+    ],
+    [
+      571,
+      662
+    ]
+  ],
+  "bootGapPixelsAtY1470": 35,
+  "protectedLegVertices": 920,
+  "maximumLegMotionFromCoatParametersPixels": 0,
+  "scope": "Official native Core and offline artwork/geometry validation, not webcam tracking."
+}

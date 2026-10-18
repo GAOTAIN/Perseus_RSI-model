@@ -1,25 +1,26 @@
 {
-  "version": 2,
   "status": "pass",
-  "native_status": "pass",
-  "parameters": 21,
-  "visual_review": [
-    "neutral retains original character",
-    "half blink has no closed-texture crossfade",
-    "closed eyes",
-    "continuous speaking mouth",
-    "head extrema",
-    "natural20fps native-geometry preview"
-  ],
-  "geometry_sampling": {
+  "revision": "natural-leg-anatomy-redraw",
+  "nativeRuntime": "pass",
+  "pose": {
     "status": "pass",
-    "frames": 160,
-    "fps": 20,
-    "seconds": 8,
-    "minimum_sampled_triangle_area_ratio": 0.5883928537368774,
-    "fast_vs_reference_raster_premultiplied_max_error": 0.003890812397003174,
-    "scope": "Actual native Core geometry with authored tracking-style inputs and official SDK simulated physics, not webcam tracking.",
-    "native_mesh_folding_check": "positive triangle areas on every tenth preview frame"
+    "upperBodyFaceHandsRSIPanels": "original pixels preserved",
+    "artworkRegistration": "identity without stretching",
+    "bootSilhouettesAtY1470": [
+      [
+        449,
+        535
+      ],
+      [
+        571,
+        662
+      ]
+    ],
+    "bootGapPixelsAtY1470": 35,
+    "protectedLegVertices": 920,
+    "maximumLegMotionFromCoatParametersPixels": 0,
+    "scope": "Official native Core and offline artwork/geometry validation, not webcam tracking."
   },
-  "scope": "Offline native Core/physics validation. Camera calibration not executed."
+  "sourceRoundtrip": "pass",
+  "scope": "Offline Core, geometry and source validation; not webcam tracking."
 }

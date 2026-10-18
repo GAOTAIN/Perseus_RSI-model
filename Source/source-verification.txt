@@ -13,13 +13,13 @@ Decoded container files:
   image.png 96 bytes PNG 64x64
   image_0.png 83 bytes PNG 32x32
   image_1.png 75 bytes PNG 16x16
-  imageFileBuf.png 2697326 bytes PNG 2048x2048
-  imageFileBuf_0.png 2499657 bytes PNG 1014x1527
-  image_2.png 784 bytes PNG 16x16
-  image_3.png 7321 bytes PNG 64x64
-  image_4.png 784 bytes PNG 16x16
-  image_5.png 2292 bytes PNG 32x32
-  image_6.png 784 bytes PNG 16x16
+  imageFileBuf.png 2740361 bytes PNG 2048x2048
+  imageFileBuf_0.png 2541472 bytes PNG 1014x1527
+  image_2.png 789 bytes PNG 16x16
+  image_3.png 7477 bytes PNG 64x64
+  image_4.png 789 bytes PNG 16x16
+  image_5.png 2314 bytes PNG 32x32
+  image_6.png 789 bytes PNG 16x16
   imageFileBuf_1.png 4867 bytes PNG 61x29
   image_7.png 569 bytes PNG 16x16
   image_8.png 5428 bytes PNG 64x64
@@ -38,6 +38,6 @@ Decoded container files:
   image_19.png 580 bytes PNG 16x16
   image_20.png 1886 bytes PNG 32x32
   image_21.png 580 bytes PNG 16x16
-  main.xml 7452696 bytes
+  main.xml 7451874 bytes
 PASS: source reopened, rig counts retained, embedded PNG art decoded.
 Scope: codec/loader verification; not an official Cubism Editor UI import.

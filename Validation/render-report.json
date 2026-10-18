@@ -1,0 +1,64 @@
+{
+  "controls": {
+    "uv_four_corner_control": "pass",
+    "normal_premultiplied_composition": "pass",
+    "transparent_edge_filtering": "pass"
+  },
+  "poses": [
+    {
+      "name": "neutral",
+      "parameters": {}
+    },
+    {
+      "name": "blink",
+      "parameters": {
+        "ParamEyeLOpen": 0.0,
+        "ParamEyeROpen": 0.0
+      }
+    },
+    {
+      "name": "mouth_open",
+      "parameters": {
+        "ParamMouthOpenY": 1.0
+      }
+    },
+    {
+      "name": "head_left",
+      "parameters": {
+        "ParamAngleX": -30.0
+      }
+    },
+    {
+      "name": "head_right",
+      "parameters": {
+        "ParamAngleX": 30.0
+      }
+    },
+    {
+      "name": "head_up",
+      "parameters": {
+        "ParamAngleY": 30.0
+      }
+    },
+    {
+      "name": "head_down",
+      "parameters": {
+        "ParamAngleY": -30.0
+      }
+    },
+    {
+      "name": "head_tilt",
+      "parameters": {
+        "ParamAngleZ": 20.0
+      }
+    },
+    {
+      "name": "body",
+      "parameters": {
+        "ParamBodyAngleX": 10.0
+      }
+    }
+  ],
+  "uv_convention": "Core V up, PNG row down: image_y=(1-V)*height-.5",
+  "limitations": "CPU reference QA, no clipping masks/offscreen and no Framework physics or VTS face tracking. GIF is authored parameter motion."
+}

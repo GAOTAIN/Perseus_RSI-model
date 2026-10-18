@@ -109,7 +109,8 @@ function morphDelta(id,x,y,value) {
     dx=value*18.0*mask*side;
     dy=value*2.8*mask*side*Math.sin(clamp((y-200)/620)*Math.PI);
   }else if(id==='ParamCoatSway'||id==='ParamCoatSwayR'){
-    const mask=smooth(520,1250,y)*smooth(100,160,Math.abs(x-512));
+    const legProtection=smooth(820,980,y)*(1-smooth(160,200,Math.abs(x-532)));
+    const mask=smooth(520,1250,y)*smooth(100,160,Math.abs(x-512))*(1-legProtection);
     const side=id==='ParamCoatSway'?1-smooth(490,534,x):smooth(490,534,x);
     dx=value*7.5*mask*side;dy=value*1.3*mask*side;
   }else if(id==='ParamEyeBallX'||id==='ParamEyeBallY'){

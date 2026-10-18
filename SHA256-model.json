@@ -27,7 +27,7 @@
   {
     "file": "Perseus_RSI.moc3",
     "bytes": 5114048,
-    "sha256": "700642b89e60ba39cf18292007bb7ee9dd5831cc87d139874240081f85cd6447"
+    "sha256": "a4c1e93059993b784142e055dd51fd1b7239329332cfb5cc25c7596b2500f61f"
   },
   {
     "file": "Perseus_RSI.model3.json",
@@ -41,7 +41,7 @@
   },
   {
     "file": "textures/texture_00.png",
-    "bytes": 2697326,
-    "sha256": "99cd17158fd78f129c6563b4c02a8547245188b3ad8a47d5019394aa5acc13f6"
+    "bytes": 2740361,
+    "sha256": "297127a142246d1966563696da82339dd7b5db4cbd42727e15a555f913424c24"
   }
 ]
