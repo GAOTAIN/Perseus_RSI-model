@@ -1,0 +1,30 @@
+{
+  "model": "Perseus_RSI",
+  "neutral_reference": "Perseus_reference.png",
+  "native_render": "Perseus-preview/neutral.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "neutral_comparison_8bit": {
+    "alpha_mean_absolute_difference": 0,
+    "visible_rgb_mean_absolute_difference": 0.002486463967422523,
+    "visible_rgb_maximum_absolute_difference": 1,
+    "premultiplied_rgb_mean_absolute_difference": 0.0007390024355553854
+  },
+  "visually_inspected": [
+    "neutral.png",
+    "face-keyframes.png"
+  ],
+  "observations": [
+    "Neutral preserves source artwork, including transparency.",
+    "Both eyelids close cleanly at blink endpoint.",
+    "Open-mouth endpoint changes the mouth to a speaking shape.",
+    "Head tilt and subtle head X/Y deformations remain visually coherent."
+  ],
+  "limitations": [
+    "Basic mesh warp and overlay rig: head X/Y are subtle deformations, not a fully redrawn multi-angle character.",
+    "This was rendered from Cubism Core output in a CPU QA renderer; VTube Studio import and face tracking were not exercised by this validation.",
+    "Physics JSON is not simulated by Cubism Core."
+  ]
+}

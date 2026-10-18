@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "parameterCount": 18,
+  "physics": {
+    "groups": 4,
+    "inputs": 16,
+    "outputs": 4,
+    "vertices": 10,
+    "fps": 60
+  },
+  "motion": {
+    "duration": 10,
+    "curves": 6,
+    "segments": 56,
+    "points": 174,
+    "loop": true
+  },
+  "expressionCount": 2,
+  "checksPassed": 323,
+  "references": [
+    "https://github.com/Live2D/CubismSpecs/blob/master/FileFormats/physics3.json.md",
+    "https://github.com/Live2D/CubismSpecs/blob/master/FileFormats/motion3.json.md",
+    "https://github.com/Live2D/CubismSpecs/blob/master/FileFormats/exp3.json.md"
+  ]
+}

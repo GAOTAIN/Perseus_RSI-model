@@ -1,0 +1,52 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "Perseus_RSI.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "DisplayInfo": "Perseus_RSI.cdi3.json",
+    "Physics": "Perseus_RSI.physics3.json",
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/Idle.motion3.json",
+          "FadeInTime": 1.2,
+          "FadeOutTime": 1.2
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "冷傲",
+        "File": "expressions/ColdNoble.exp3.json"
+      },
+      {
+        "Name": "自信",
+        "File": "expressions/Confident.exp3.json"
+      }
+    ]
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ],
+  "Layout": {
+    "CenterX": 0,
+    "CenterY": 0,
+    "Height": 2
+  }
+}

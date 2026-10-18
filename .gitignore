@@ -1,0 +1,10 @@
+node_modules/
+.gradle/
+*.log
+.DS_Store
+Thumbs.db
+Backup*/
+*.vtube.json
+items_pinned_to_model.json
+Source/Build/art/
+Source/Build/build/

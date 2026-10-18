@@ -1,0 +1,47 @@
+[
+  {
+    "file": "expressions/ColdNoble.exp3.json",
+    "bytes": 368,
+    "sha256": "666245c440d450cc40a2e1b121ff795d4a12490f9534a3caf9e0dddb86c35e27"
+  },
+  {
+    "file": "expressions/Confident.exp3.json",
+    "bytes": 364,
+    "sha256": "9eda28d7564645941fa8d448327cf4325cf52bdc407fcccd6f0da22f4fb8c787"
+  },
+  {
+    "file": "icon.png",
+    "bytes": 670431,
+    "sha256": "ada7f24666194bf96a358ea55b552ea2c7990b93f7d4c34b04765a5afffe4182"
+  },
+  {
+    "file": "motions/Idle.motion3.json",
+    "bytes": 7615,
+    "sha256": "4b8dc6096a9f814375cf9110c11a85147252644a9d97ce9db6756d587b4e9df1"
+  },
+  {
+    "file": "Perseus_RSI.cdi3.json",
+    "bytes": 1913,
+    "sha256": "d0c8dcbeab70879ad187275e87953961808219a71b7e286f061a0dcd9b38119d"
+  },
+  {
+    "file": "Perseus_RSI.moc3",
+    "bytes": 3686016,
+    "sha256": "0886069005093efcb116203fa4bb20e885357efc6a4abf8b554bd86c012f5054"
+  },
+  {
+    "file": "Perseus_RSI.model3.json",
+    "bytes": 952,
+    "sha256": "5f02a9277e40543f1d61ded8715f3f98f4eeb80ee8f7d256ef686e7c34dd60b8"
+  },
+  {
+    "file": "Perseus_RSI.physics3.json",
+    "bytes": 8414,
+    "sha256": "97f6497c4e99e79828316599d603a7d8f0cd0088f6d5d1e1fd0fcf0e4ca9916e"
+  },
+  {
+    "file": "textures/texture_00.png",
+    "bytes": 2697280,
+    "sha256": "3f7cf96f52bef4caa9e0596ac582a99eccb4064af3682b793bb427d73cf0373f"
+  }
+]

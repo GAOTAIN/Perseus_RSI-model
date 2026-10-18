@@ -1,0 +1,9 @@
+{
+  "version": "v1.0.0",
+  "source": "Original v1 backup",
+  "parameters": 18,
+  "physicsGroups": 4,
+  "rebuiltAtlasMatchesOriginalSha256": "3f7cf96f52bef4caa9e0596ac582a99eccb4064af3682b793bb427d73cf0373f",
+  "nativeRuntime": "pass",
+  "cmo3LoaderReadback": "pass"
+}

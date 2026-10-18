@@ -1,0 +1,1377 @@
+{
+  "status": "pass",
+  "evaluator": "Official Live2D CubismWebFramework develop, syntax-transformed by Node 24; original CubismPhysics and CubismPhysicsJson logic",
+  "sourceCommit": "d4da0aa07e47d2c1e4f5fa7ea6047861ea5e5d0b",
+  "limitation": "Float32 parameter-table model adapter; no native renderer or VTube Studio UI involved. Core bootstrap logging/version/memory hooks are shims, not simulated physics.",
+  "transformedModules": 59,
+  "checks": [
+    "All 2700 frame outputs finite and inside -1..1",
+    "All four outputs respond to sine input with amplitude > .01 and RMS above neutral by > .003",
+    "All four step/release outputs settle within .01 of neutral",
+    "Neutral, tracking sine, and step/release scenarios executed"
+  ],
+  "scenarios": [
+    {
+      "name": "neutral",
+      "seconds": 10,
+      "fps": 60,
+      "frames": 600,
+      "outputs": {
+        "ParamHairFront": {
+          "min": 0,
+          "max": 0,
+          "final": 0,
+          "rms": 0
+        },
+        "ParamHairSide": {
+          "min": 0,
+          "max": 0,
+          "final": 0,
+          "rms": 0
+        },
+        "ParamHairBack": {
+          "min": 0,
+          "max": 0,
+          "final": 0,
+          "rms": 0
+        },
+        "ParamCoatSway": {
+          "min": 0,
+          "max": 0,
+          "final": 0,
+          "rms": 0
+        }
+      },
+      "samples": [
+        {
+          "time": 0,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 0.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 0.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 0.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 1,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 1.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 1.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 1.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 2,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 2.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 2.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 2.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 3,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 3.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 3.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 3.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 4,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 4.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 4.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 4.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 5.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 5.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 5.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 6,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 6.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 6.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 6.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 7,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 7.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 7.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 7.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 8,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 8.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 8.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 8.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 9,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 9.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 9.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 9.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        }
+      ]
+    },
+    {
+      "name": "face_tracking_sine",
+      "seconds": 20,
+      "fps": 60,
+      "frames": 1200,
+      "outputs": {
+        "ParamHairFront": {
+          "min": -0.13712814450263977,
+          "max": 0.13392429053783417,
+          "final": 0.040800243616104126,
+          "rms": 0.07463829913392096
+        },
+        "ParamHairSide": {
+          "min": -0.03055468760430813,
+          "max": 0.047495514154434204,
+          "final": -0.025898417457938194,
+          "rms": 0.019159462321815052
+        },
+        "ParamHairBack": {
+          "min": -0.054361741989851,
+          "max": 0.06494612991809845,
+          "final": -0.02588167041540146,
+          "rms": 0.020368918288099384
+        },
+        "ParamCoatSway": {
+          "min": -0.04227537289261818,
+          "max": 0.04176266863942146,
+          "final": -0.0063799479976296425,
+          "rms": 0.025607476269477267
+        }
+      },
+      "samples": [
+        {
+          "time": 0,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 0.25,
+          "ParamHairFront": -0.06564972549676895,
+          "ParamHairSide": 0.006702754646539688,
+          "ParamHairBack": 0.006886004004627466,
+          "ParamCoatSway": -0.006099360529333353
+        },
+        {
+          "time": 0.5,
+          "ParamHairFront": -0.027813805267214775,
+          "ParamHairSide": 0.01784689910709858,
+          "ParamHairBack": 0.026399290189146996,
+          "ParamCoatSway": 0.005525010637938976
+        },
+        {
+          "time": 0.75,
+          "ParamHairFront": 0.01174637395888567,
+          "ParamHairSide": 0.006191934924572706,
+          "ParamHairBack": 0.0057396660558879375,
+          "ParamCoatSway": 0.017090747132897377
+        },
+        {
+          "time": 1,
+          "ParamHairFront": 0.053142327815294266,
+          "ParamHairSide": -0.0037398498971015215,
+          "ParamHairBack": -0.0022332346998155117,
+          "ParamCoatSway": 0.027382295578718185
+        },
+        {
+          "time": 1.25,
+          "ParamHairFront": 0.08970295637845993,
+          "ParamHairSide": -0.013280550017952919,
+          "ParamHairBack": -0.01349675189703703,
+          "ParamCoatSway": 0.03511403128504753
+        },
+        {
+          "time": 1.5,
+          "ParamHairFront": 0.11524323374032974,
+          "ParamHairSide": -0.020505785942077637,
+          "ParamHairBack": -0.02158205397427082,
+          "ParamCoatSway": 0.03923119232058525
+        },
+        {
+          "time": 1.75,
+          "ParamHairFront": 0.12503580749034882,
+          "ParamHairSide": -0.023959243670105934,
+          "ParamHairBack": -0.025855155661702156,
+          "ParamCoatSway": 0.039065878838300705
+        },
+        {
+          "time": 2,
+          "ParamHairFront": 0.11678805202245712,
+          "ParamHairSide": -0.022930484265089035,
+          "ParamHairBack": -0.025317955762147903,
+          "ParamCoatSway": 0.03445075824856758
+        },
+        {
+          "time": 2.25,
+          "ParamHairFront": 0.0910876914858818,
+          "ParamHairSide": -0.017513366416096687,
+          "ParamHairBack": -0.0200751181691885,
+          "ParamCoatSway": 0.02576911635696888
+        },
+        {
+          "time": 2.5,
+          "ParamHairFront": 0.051283057779073715,
+          "ParamHairSide": -0.008766325190663338,
+          "ParamHairBack": -0.011045015417039394,
+          "ParamCoatSway": 0.013928909786045551
+        },
+        {
+          "time": 2.75,
+          "ParamHairFront": 0.0029500839300453663,
+          "ParamHairSide": 0.0019158731447532773,
+          "ParamHairBack": 0.00018860524869523942,
+          "ParamCoatSway": 0.00026161468122154474
+        },
+        {
+          "time": 3,
+          "ParamHairFront": -0.046914491802453995,
+          "ParamHairSide": 0.01261679083108902,
+          "ParamHairBack": 0.011645867489278316,
+          "ParamCoatSway": -0.013640527613461018
+        },
+        {
+          "time": 3.25,
+          "ParamHairFront": -0.09091293811798096,
+          "ParamHairSide": 0.021407242864370346,
+          "ParamHairBack": 0.02126743644475937,
+          "ParamCoatSway": -0.026125937700271606
+        },
+        {
+          "time": 3.5,
+          "ParamHairFront": -0.12240342050790787,
+          "ParamHairSide": 0.026638086885213852,
+          "ParamHairBack": 0.027270343154668808,
+          "ParamCoatSway": -0.03569667041301727
+        },
+        {
+          "time": 3.75,
+          "ParamHairFront": -0.13660259544849396,
+          "ParamHairSide": 0.02725624479353428,
+          "ParamHairBack": 0.028489086776971817,
+          "ParamCoatSway": -0.041204310953617096
+        },
+        {
+          "time": 4,
+          "ParamHairFront": -0.13138507306575775,
+          "ParamHairSide": 0.024529073387384415,
+          "ParamHairBack": 0.022627847269177437,
+          "ParamCoatSway": -0.04200137034058571
+        },
+        {
+          "time": 4.25,
+          "ParamHairFront": -0.10762383788824081,
+          "ParamHairSide": 0.014888391830027103,
+          "ParamHairBack": 0.016248248517513275,
+          "ParamCoatSway": -0.03802536800503731
+        },
+        {
+          "time": 4.5,
+          "ParamHairFront": -0.069038987159729,
+          "ParamHairSide": 0.0033817316871136427,
+          "ParamHairBack": 0.004969984292984009,
+          "ParamCoatSway": -0.029802456498146057
+        },
+        {
+          "time": 4.75,
+          "ParamHairFront": -0.02157776802778244,
+          "ParamHairSide": -0.008595435880124569,
+          "ParamHairBack": -0.007570314686745405,
+          "ParamCoatSway": -0.018370527774095535
+        },
+        {
+          "time": 5,
+          "ParamHairFront": 0.027586013078689575,
+          "ParamHairSide": -0.01942593604326248,
+          "ParamHairBack": -0.018872471526265144,
+          "ParamCoatSway": -0.005134756676852703
+        },
+        {
+          "time": 5.25,
+          "ParamHairFront": 0.07122828811407089,
+          "ParamHairSide": -0.02718525007367134,
+          "ParamHairBack": -0.02714565396308899,
+          "ParamCoatSway": 0.008321446366608143
+        },
+        {
+          "time": 5.5,
+          "ParamHairFront": 0.10317686945199966,
+          "ParamHairSide": -0.030494971200823784,
+          "ParamHairBack": -0.03086296282708645,
+          "ParamCoatSway": 0.020442364737391472
+        },
+        {
+          "time": 5.75,
+          "ParamHairFront": 0.11918921768665314,
+          "ParamHairSide": -0.028691282495856285,
+          "ParamHairBack": -0.02930782176554203,
+          "ParamCoatSway": 0.029894692823290825
+        },
+        {
+          "time": 6,
+          "ParamHairFront": 0.11755925416946411,
+          "ParamHairSide": -0.021748386323451996,
+          "ParamHairBack": -0.022659873589873314,
+          "ParamCoatSway": 0.035725515335798264
+        },
+        {
+          "time": 6.25,
+          "ParamHairFront": 0.09938755631446838,
+          "ParamHairSide": -0.011560267768800259,
+          "ParamHairBack": -0.012029028497636318,
+          "ParamCoatSway": 0.037462446838617325
+        },
+        {
+          "time": 6.5,
+          "ParamHairFront": 0.06838440150022507,
+          "ParamHairSide": 0.0010388644877821207,
+          "ParamHairBack": 0.0007352307438850403,
+          "ParamCoatSway": 0.035143397748470306
+        },
+        {
+          "time": 6.75,
+          "ParamHairFront": 0.030132433399558067,
+          "ParamHairSide": 0.013394929468631744,
+          "ParamHairBack": 0.013410183601081371,
+          "ParamCoatSway": 0.029275372624397278
+        },
+        {
+          "time": 7,
+          "ParamHairFront": -0.009033393114805222,
+          "ParamHairSide": 0.023530296981334686,
+          "ParamHairBack": 0.023830344900488853,
+          "ParamCoatSway": 0.020734060555696487
+        },
+        {
+          "time": 7.25,
+          "ParamHairFront": -0.04316279664635658,
+          "ParamHairSide": 0.029780248180031776,
+          "ParamHairBack": 0.030250150710344315,
+          "ParamCoatSway": 0.010624281130731106
+        },
+        {
+          "time": 7.5,
+          "ParamHairFront": -0.06754890084266663,
+          "ParamHairSide": 0.033620186150074005,
+          "ParamHairBack": 0.031585801392793655,
+          "ParamCoatSway": 0.00012473687820602208
+        },
+        {
+          "time": 7.75,
+          "ParamHairFront": -0.07929472625255585,
+          "ParamHairSide": 0.02695116028189659,
+          "ParamHairBack": 0.02757171168923378,
+          "ParamCoatSway": -0.009660743176937103
+        },
+        {
+          "time": 8,
+          "ParamHairFront": -0.07770165055990219,
+          "ParamHairSide": 0.018836678937077522,
+          "ParamHairBack": 0.01885230466723442,
+          "ParamCoatSway": -0.017826011404395103
+        },
+        {
+          "time": 8.25,
+          "ParamHairFront": -0.06442662328481674,
+          "ParamHairSide": 0.007393196225166321,
+          "ParamHairBack": 0.006941697094589472,
+          "ParamCoatSway": -0.02374430000782013
+        },
+        {
+          "time": 8.5,
+          "ParamHairFront": -0.04316452145576477,
+          "ParamHairSide": -0.005177115090191364,
+          "ParamHairBack": -0.006037450395524502,
+          "ParamCoatSway": -0.02710036002099514
+        },
+        {
+          "time": 8.75,
+          "ParamHairFront": -0.018753621727228165,
+          "ParamHairSide": -0.01660453900694847,
+          "ParamHairBack": -0.017801405861973763,
+          "ParamCoatSway": -0.027874045073986053
+        },
+        {
+          "time": 9,
+          "ParamHairFront": 0.003983078524470329,
+          "ParamHairSide": -0.02500687912106514,
+          "ParamHairBack": -0.026363177224993706,
+          "ParamCoatSway": -0.026286626234650612
+        },
+        {
+          "time": 9.25,
+          "ParamHairFront": 0.02116258814930916,
+          "ParamHairSide": -0.02906985580921173,
+          "ParamHairBack": -0.03034490905702114,
+          "ParamCoatSway": -0.022726692259311676
+        },
+        {
+          "time": 9.5,
+          "ParamHairFront": 0.030328890308737755,
+          "ParamHairSide": -0.02819577232003212,
+          "ParamHairBack": -0.029517650604248047,
+          "ParamCoatSway": -0.017672143876552582
+        },
+        {
+          "time": 9.75,
+          "ParamHairFront": 0.03067769855260849,
+          "ParamHairSide": -0.022569220513105392,
+          "ParamHairBack": -0.022819282487034798,
+          "ParamCoatSway": -0.011621307581663132
+        },
+        {
+          "time": 10,
+          "ParamHairFront": 0.023202108219265938,
+          "ParamHairSide": -0.013186490163207054,
+          "ParamHairBack": -0.01288777869194746,
+          "ParamCoatSway": -0.0050424495711922646
+        },
+        {
+          "time": 10.25,
+          "ParamHairFront": 0.010639493353664875,
+          "ParamHairSide": -0.0017590394709259272,
+          "ParamHairBack": -0.0006963261403143406,
+          "ParamCoatSway": 0.0016522801015526056
+        },
+        {
+          "time": 10.5,
+          "ParamHairFront": -0.003073830157518387,
+          "ParamHairSide": 0.009604722261428833,
+          "ParamHairBack": 0.011310313828289509,
+          "ParamCoatSway": 0.008107290603220463
+        },
+        {
+          "time": 10.75,
+          "ParamHairFront": -0.013856092467904091,
+          "ParamHairSide": 0.018873263150453568,
+          "ParamHairBack": 0.021026860922574997,
+          "ParamCoatSway": 0.014004605822265148
+        },
+        {
+          "time": 11,
+          "ParamHairFront": -0.01857604831457138,
+          "ParamHairSide": 0.024507764726877213,
+          "ParamHairBack": 0.026812946423888206,
+          "ParamCoatSway": 0.01903841644525528
+        },
+        {
+          "time": 11.25,
+          "ParamHairFront": -0.015677275136113167,
+          "ParamHairSide": 0.02567289210855961,
+          "ParamHairBack": 0.02778053469955921,
+          "ParamCoatSway": 0.022897526621818542
+        },
+        {
+          "time": 11.5,
+          "ParamHairFront": -0.005285237915813923,
+          "ParamHairSide": 0.02228151448071003,
+          "ParamHairBack": 0.023849138990044594,
+          "ParamCoatSway": 0.025265751406550407
+        },
+        {
+          "time": 11.75,
+          "ParamHairFront": 0.01089327409863472,
+          "ParamHairSide": 0.014985404908657074,
+          "ParamHairBack": 0.015739988535642624,
+          "ParamCoatSway": 0.02584356628358364
+        },
+        {
+          "time": 12,
+          "ParamHairFront": 0.02971077710390091,
+          "ParamHairSide": 0.005130026489496231,
+          "ParamHairBack": 0.00491650216281414,
+          "ParamCoatSway": 0.024388892576098442
+        },
+        {
+          "time": 12.25,
+          "ParamHairFront": 0.04693936929106712,
+          "ParamHairSide": -0.0054194508120417595,
+          "ParamHairBack": -0.00661340681836009,
+          "ParamCoatSway": 0.020771775394678116
+        },
+        {
+          "time": 12.5,
+          "ParamHairFront": 0.058096617460250854,
+          "ParamHairSide": -0.014646370895206928,
+          "ParamHairBack": -0.016687564551830292,
+          "ParamCoatSway": 0.015034511685371399
+        },
+        {
+          "time": 12.75,
+          "ParamHairFront": 0.05960392206907272,
+          "ParamHairSide": -0.020843984559178352,
+          "ParamHairBack": -0.023467935621738434,
+          "ParamCoatSway": 0.007443667855113745
+        },
+        {
+          "time": 13,
+          "ParamHairFront": 0.04973991960287094,
+          "ParamHairSide": -0.022961053997278214,
+          "ParamHairBack": -0.025804150849580765,
+          "ParamCoatSway": -0.0014825318939983845
+        },
+        {
+          "time": 13.25,
+          "ParamHairFront": 0.028978224843740463,
+          "ParamHairSide": -0.02072330377995968,
+          "ParamHairBack": -0.022312743589282036,
+          "ParamCoatSway": -0.01098579354584217
+        },
+        {
+          "time": 13.5,
+          "ParamHairFront": -0.00019521776994224638,
+          "ParamHairSide": -0.014598759822547436,
+          "ParamHairBack": -0.01695260964334011,
+          "ParamCoatSway": -0.02012394554913044
+        },
+        {
+          "time": 13.75,
+          "ParamHairFront": -0.033657148480415344,
+          "ParamHairSide": -0.005711594596505165,
+          "ParamHairBack": -0.006845466326922178,
+          "ParamCoatSway": -0.027867354452610016
+        },
+        {
+          "time": 14,
+          "ParamHairFront": -0.06610957533121109,
+          "ParamHairSide": 0.004292598459869623,
+          "ParamHairBack": 0.004154800903052092,
+          "ParamCoatSway": -0.03322384133934975
+        },
+        {
+          "time": 14.25,
+          "ParamHairFront": -0.0917954295873642,
+          "ParamHairSide": 0.013499423861503601,
+          "ParamHairBack": 0.014437342993915081,
+          "ParamCoatSway": -0.03537613898515701
+        },
+        {
+          "time": 14.5,
+          "ParamHairFront": -0.10556351393461227,
+          "ParamHairSide": 0.02010887861251831,
+          "ParamHairBack": 0.021971389651298523,
+          "ParamCoatSway": -0.033813364803791046
+        },
+        {
+          "time": 14.75,
+          "ParamHairFront": -0.10402261465787888,
+          "ParamHairSide": 0.022836511954665184,
+          "ParamHairBack": 0.02534860000014305,
+          "ParamCoatSway": -0.028435252606868744
+        },
+        {
+          "time": 15,
+          "ParamHairFront": -0.08631905913352966,
+          "ParamHairSide": 0.02025134302675724,
+          "ParamHairBack": 0.023966066539287567,
+          "ParamCoatSway": -0.01960824802517891
+        },
+        {
+          "time": 15.25,
+          "ParamHairFront": -0.05428965389728546,
+          "ParamHairSide": 0.015339372679591179,
+          "ParamHairBack": 0.018096985295414925,
+          "ParamCoatSway": -0.008157823234796524
+        },
+        {
+          "time": 15.5,
+          "ParamHairFront": -0.012117133475840092,
+          "ParamHairSide": 0.006652140524238348,
+          "ParamHairBack": 0.00879214983433485,
+          "ParamCoatSway": 0.0047075445763766766
+        },
+        {
+          "time": 15.75,
+          "ParamHairFront": 0.0342705100774765,
+          "ParamHairSide": -0.0036791162565350533,
+          "ParamHairBack": -0.0023006710689514875,
+          "ParamCoatSway": 0.01753241755068302
+        },
+        {
+          "time": 16,
+          "ParamHairFront": 0.07798125594854355,
+          "ParamHairSide": -0.013612520880997181,
+          "ParamHairBack": -0.013182656839489937,
+          "ParamCoatSway": 0.02879243902862072
+        },
+        {
+          "time": 16.25,
+          "ParamHairFront": 0.11217203736305237,
+          "ParamHairSide": -0.021311039105057716,
+          "ParamHairBack": -0.02183571644127369,
+          "ParamCoatSway": 0.037090759724378586
+        },
+        {
+          "time": 16.5,
+          "ParamHairFront": 0.1312233954668045,
+          "ParamHairSide": -0.02526400238275528,
+          "ParamHairBack": -0.02660980261862278,
+          "ParamCoatSway": 0.041346970945596695
+        },
+        {
+          "time": 16.75,
+          "ParamHairFront": 0.13178491592407227,
+          "ParamHairSide": -0.02464149333536625,
+          "ParamHairBack": -0.02656145952641964,
+          "ParamCoatSway": 0.040951430797576904
+        },
+        {
+          "time": 17,
+          "ParamHairFront": 0.11338655650615692,
+          "ParamHairSide": -0.019465725868940353,
+          "ParamHairBack": -0.02164158597588539,
+          "ParamCoatSway": 0.03586070239543915
+        },
+        {
+          "time": 17.25,
+          "ParamHairFront": 0.07850838452577591,
+          "ParamHairSide": -0.010596860200166702,
+          "ParamHairBack": -0.012691368348896503,
+          "ParamCoatSway": 0.02661685273051262
+        },
+        {
+          "time": 17.5,
+          "ParamHairFront": 0.03217281401157379,
+          "ParamHairSide": 0.00044280121801421046,
+          "ParamHairBack": -0.0012700959341600537,
+          "ParamCoatSway": 0.014285561628639698
+        },
+        {
+          "time": 17.75,
+          "ParamHairFront": -0.018836282193660736,
+          "ParamHairSide": 0.011745991185307503,
+          "ParamHairBack": 0.010628292337059975,
+          "ParamCoatSway": 0.00032137485686689615
+        },
+        {
+          "time": 18,
+          "ParamHairFront": -0.06701672822237015,
+          "ParamHairSide": 0.021335691213607788,
+          "ParamHairBack": 0.020909268409013748,
+          "ParamCoatSway": -0.013619720935821533
+        },
+        {
+          "time": 18.25,
+          "ParamHairFront": -0.1053081750869751,
+          "ParamHairSide": 0.02748328633606434,
+          "ParamHairBack": 0.02772211655974388,
+          "ParamCoatSway": -0.02589372731745243
+        },
+        {
+          "time": 18.5,
+          "ParamHairFront": -0.12818866968154907,
+          "ParamHairSide": 0.029009636491537094,
+          "ParamHairBack": 0.02978343330323696,
+          "ParamCoatSway": -0.03507904335856438
+        },
+        {
+          "time": 18.75,
+          "ParamHairFront": -0.13253019750118256,
+          "ParamHairSide": 0.025524545460939407,
+          "ParamHairBack": 0.026630327105522156,
+          "ParamCoatSway": -0.04015567898750305
+        },
+        {
+          "time": 19,
+          "ParamHairFront": -0.11808294802904129,
+          "ParamHairSide": 0.017535900697112083,
+          "ParamHairBack": 0.018737351521849632,
+          "ParamCoatSway": -0.04062831774353981
+        },
+        {
+          "time": 19.25,
+          "ParamHairFront": -0.08750841021537781,
+          "ParamHairSide": 0.006378082558512688,
+          "ParamHairBack": 0.007449186407029629,
+          "ParamCoatSway": -0.03657567873597145
+        },
+        {
+          "time": 19.5,
+          "ParamHairFront": -0.045913949608802795,
+          "ParamHairSide": -0.006040163803845644,
+          "ParamHairBack": -0.0052727507427334785,
+          "ParamCoatSway": -0.02862035296857357
+        },
+        {
+          "time": 19.75,
+          "ParamHairFront": 0.00007358727452810854,
+          "ParamHairSide": -0.017603296786546707,
+          "ParamHairBack": -0.017227843403816223,
+          "ParamCoatSway": -0.01782648079097271
+        }
+      ]
+    },
+    {
+      "name": "step_and_release",
+      "seconds": 15,
+      "fps": 60,
+      "frames": 900,
+      "outputs": {
+        "ParamHairFront": {
+          "min": -0.5858048796653748,
+          "max": 0.7029634714126587,
+          "final": 0,
+          "rms": 0.05508087449947753
+        },
+        "ParamHairSide": {
+          "min": -0.5563113689422607,
+          "max": 0.48311370611190796,
+          "final": 0,
+          "rms": 0.042441756822312666
+        },
+        "ParamHairBack": {
+          "min": -0.6820769309997559,
+          "max": 0.6075442433357239,
+          "final": 0,
+          "rms": 0.05828254838556848
+        },
+        "ParamCoatSway": {
+          "min": -0.1220516711473465,
+          "max": 0.16846589744091034,
+          "final": 0,
+          "rms": 0.018426176925458778
+        }
+      },
+      "samples": [
+        {
+          "time": 0,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 0.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 0.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 0.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 1,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 1.25,
+          "ParamHairFront": 0.10420946031808853,
+          "ParamHairSide": 0.10803148150444031,
+          "ParamHairBack": 0.05732254311442375,
+          "ParamCoatSway": 0.045226313173770905
+        },
+        {
+          "time": 1.5,
+          "ParamHairFront": 0.07657574862241745,
+          "ParamHairSide": -0.025865964591503143,
+          "ParamHairBack": -0.04713958129286766,
+          "ParamCoatSway": 0.04424076899886131
+        },
+        {
+          "time": 1.75,
+          "ParamHairFront": 0.07746992260217667,
+          "ParamHairSide": 0.0017360334750264883,
+          "ParamHairBack": 0.014901355840265751,
+          "ParamCoatSway": 0.044244103133678436
+        },
+        {
+          "time": 2,
+          "ParamHairFront": 0.07744565606117249,
+          "ParamHairSide": 0.00008767808321863413,
+          "ParamHairBack": -0.0036607785150408745,
+          "ParamCoatSway": 0.04424409568309784
+        },
+        {
+          "time": 2.25,
+          "ParamHairFront": 0.07744607329368591,
+          "ParamHairSide": -0.000020608529666787945,
+          "ParamHairBack": 0.0007820018799975514,
+          "ParamCoatSway": 0.04424409568309784
+        },
+        {
+          "time": 2.5,
+          "ParamHairFront": 0.07744608074426651,
+          "ParamHairSide": -1.885484266495041e-7,
+          "ParamHairBack": -0.0001502707600593567,
+          "ParamCoatSway": 0.04424409568309784
+        },
+        {
+          "time": 2.75,
+          "ParamHairFront": 0.07744607329368591,
+          "ParamHairSide": 3.618711730268842e-7,
+          "ParamHairBack": 0.000026112145860679448,
+          "ParamCoatSway": 0.04424409568309784
+        },
+        {
+          "time": 3,
+          "ParamHairFront": 0.07744607329368591,
+          "ParamHairSide": -3.782057689249996e-8,
+          "ParamHairBack": -0.0000040289960452355444,
+          "ParamCoatSway": 0.04424409568309784
+        },
+        {
+          "time": 3.25,
+          "ParamHairFront": -0.026035616174340248,
+          "ParamHairSide": -0.09092354029417038,
+          "ParamHairBack": -0.031871404498815536,
+          "ParamCoatSway": -0.000999634969048202
+        },
+        {
+          "time": 3.5,
+          "ParamHairFront": 0.001937026740051806,
+          "ParamHairSide": 0.025800121948122978,
+          "ParamHairBack": 0.041381336748600006,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 3.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": -0.0018565445207059383,
+          "ParamHairBack": -0.016296543180942535,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 4,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0.005180053878575563,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 4.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 4.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 4.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 5.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 5.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 5.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 6,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 6.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 6.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 6.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 7,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 7.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 7.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 7.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 8,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 8.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 8.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 8.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 9,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 9.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 9.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 9.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 10,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 10.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 10.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 10.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 11,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 11.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 11.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 11.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 12,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 12.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 12.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 12.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 13,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 13.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 13.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 13.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 14,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 14.25,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 14.5,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        },
+        {
+          "time": 14.75,
+          "ParamHairFront": 0,
+          "ParamHairSide": 0,
+          "ParamHairBack": 0,
+          "ParamCoatSway": 0
+        }
+      ]
+    }
+  ]
+}

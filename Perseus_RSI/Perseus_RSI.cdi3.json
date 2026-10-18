@@ -1,0 +1,128 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "头部左右"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "头部上下"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "头部倾斜"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼开合"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼开合"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "口型开合"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "身体左右"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "身体倾斜"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "刘海摆动"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "",
+			"Name": "侧发摆动"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "",
+			"Name": "长发摆动"
+		},
+		{
+			"Id": "ParamCoatSway",
+			"GroupId": "",
+			"Name": "裙甲摆动"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "视线左右"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "视线上下"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "嘴角变化"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉上下"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "PartBody",
+			"Name": "PartBody"
+		},
+		{
+			"Id": "PartEyes",
+			"Name": "PartEyes"
+		},
+		{
+			"Id": "PartMouth",
+			"Name": "PartMouth"
+		}
+	],
+	"Drawables": [
+		{
+			"Id": "PerseusMain",
+			"Name": "人设主体与形变网格"
+		},
+		{
+			"Id": "EyeClosedL",
+			"Name": "左眼闭合"
+		},
+		{
+			"Id": "EyeClosedR",
+			"Name": "右眼闭合"
+		},
+		{
+			"Id": "MouthSpeak",
+			"Name": "说话口型"
+		}
+	]
+}
